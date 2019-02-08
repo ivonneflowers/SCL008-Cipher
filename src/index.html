@@ -19,13 +19,15 @@
   </div>
   </div>
 
+
+
    <!-- Segunda pestaña donde solicita los datos, offset y texto a descifrar -->
    <div id= "secondWindow" class= "greenBackground" >
-   <div class="tooltip">Elige tu nivel de seguridad<span class="tooltiptext">¡Esto hará que tu contraseña sea mas difícil de decifrar!</span>
+   <div class="tooltip">Elige tu nivel de seguridad<span class="tooltiptext">Debes recordar tu nivel de seguridad para que tus amigos descifren el código</span>
    </div>
    <div>
      <!-- Rango donde se escoge el offset -->
-     <input type="range" name="quantity" min="0" max="100">
+     <input type="number" id="quantity" min="0" max="100">
      <hr>
    </div>
     <div class="tooltip2">Escribe tu texto aquí<span class="tooltiptext2">¡Recuerda que debes escribir sin signos de puntuación!</span>
@@ -37,29 +39,85 @@
   </div>
 
 
+
+
    <!-- Pestaña que se abre cuando se escoje la opción cifrar o codificar, aqui debe estar la interacción con la funcion encode -->
    <div id= "thirdWindowcipher" class= "greenBackground">
     <h1>TU MENSAJE SECRETO ESTA AQUI!<br/>
     <span id= "givenText"></span></h1>
-    <button type="button" id="thanks" class= "centrar">Salir</button>
+    <button type="button" id="thanks1" class= "centrar">Salir</button>
     <button type="button" id="begin1" class= "centrar">Volver a jugar</button>
-    <button type="button" id="share" class= "centrar">Compartir</button>
+    <button type="button" id="share1" class= "centrar">Compartir</button>
 
   </div>
 
 
- <!-- Pestaña que se abre cuando se escoje la opción descifrar o decodificar, aqui debe estar la interacción con la funcion decode -->
+
+
+  <!-- desde la opcion encode volver a jugar -->
+   <div id= "playAgainEncode" class= "greenBackground">
+      <div class="tooltip">Elige tu nivel de seguridad<span class="tooltiptext">¡Esto hará que tu contraseña sea mas difícil de decifrar!</span>
+      </div>
+      <div>
+        <!-- Rango donde se escoge el offset -->
+        <input type="number" id="quantity" min="0" max="100">
+        <hr>
+      </div>
+       <div class="tooltip">Escribe tu texto aquí<span class="tooltiptext">¡Recuerda que debes escribir sin signos de puntuación!</span>
+       </div>
+       <textarea name="yourText" id="givenTextEncode" size="70px 100px" class="inputstyle"></textarea><br/>
+      <button type="button" id="cipher2" class= "centrar">Codificar</button>
+      <button type="button" id="decipher2" class= "centrar">Decodificar</button>
+    </div>
+
+  </div>
+
+  <!-- Pantalla que aparece al apretar el boton salir desde encode, tiene interacción con la funcion thanku1 -->
+  <div id=thanksEncode class= "greenBackground" >
+      <h1>MUCHAS GRACIAS POR JUGAR</h1>
+      <div id= imagepusheen>
+      <center><img src="https://media1.tenor.com/images/0e340a2da0dbdca8e4810f211527d58e/tenor.gif?itemid=5947160" width="250" height="250" class="centrar"></img><br/></center>
+    </div>
+      </div>
+
+      <!-- Pantalla que aparece al apretar el boton Compartir desde encode, tiene interacción con la funcion shareItEncode -->
+  <div id= shareItEncode class= "greenBackground">
+      <h1>Comparte con tus amigos en redes sociales</h1>
+      <center><img src= "http://pluspng.com/img-png/social-media-vector-png-social-network-600.png" width="280" height="250" class="centrar"></img><br/></center>
+    </div>
+
+
+  <!-- Pestaña que se abre cuando se escoje la opción descifrar o decodificar, aqui debe estar la interacción con la funcion decode -->
   <div id= "thirdWindowdecipher" class= "greenBackground" >
     <h1>OMG!, este es tu  mensaje secreto</h1>
-   <button type="button" id="thanks" class= "centrar">Salir</button>
-   <button type="button" id="begin" class= "centrar">Volver a jugar</button>
-   <button type="button" id="share" class= "centrar">Compartir</button>
+   <button type="button" id="thanks2" class= "centrar">Salir</button>
+   <button type="button" id="begin2" class= "centrar">Volver a jugar</button>
+   <button type="button" id="share2" class= "centrar">Compartir</button>
 
   </div>
 
 
-  <!-- Pantalla que aparece al apretar el boton salir, tiene interacción con la funcion thankYou -->
-  <div id=thanksForPlaying class= "greenBackground" >
+  <!-- desde la opcion decode volver a jugar -->
+  <div id= "playAgainDecode" class= "greenBackground">
+      <div class="tooltip">Elige tu nivel de seguridad<span class="tooltiptext">¡Esto hará que tu contraseña sea mas difícil de decifrar!</span>
+      </div>
+      <div>
+        <!-- Rango donde se escoge el offset -->
+        <input type="number" id="quantity" min="0" max="100">
+        <hr>
+      </div>
+       <div class="tooltip">Escribe tu texto aquí<span class="tooltiptext">¡Recuerda que debes escribir sin signos de puntuación!</span>
+       </div>
+       <textarea name="yourText" id="givenTextDecode" size="70px 100px" class="inputstyle"></textarea><br/>
+      <button type="button" id="cipher3" class= "centrar">Codificar</button>
+      <button type="button" id="decipher3" class= "centrar">Decodificar</button>
+    </div>
+
+  </div>
+
+
+  <!-- Pantalla que aparece al apretar el boton salir desde decode, tiene interacción con la funcion thanku1 -->
+  <div id=thanksDecode class= "greenBackground" >
   <h1>MUCHAS GRACIAS POR JUGAR</h1>
   <div id= imagepusheen>
   <center><img src="https://media1.tenor.com/images/0e340a2da0dbdca8e4810f211527d58e/tenor.gif?itemid=5947160" width="250" height="250" class="centrar"></img><br/></center>
@@ -67,8 +125,8 @@
   </div>
 
 
- <!-- Pantalla que aparece al apretar el boton Compartir, tiene interacción con la funcion shareMessage -->
-  <div id= shareIt class= "greenBackground">
+ <!-- Pantalla que aparece al apretar el boton Compartir desde decode, tiene interacción con la funcion shareItDecode -->
+  <div id= shareItDecode class= "greenBackground">
     <h1>Comparte con tus amigos en redes sociales</h1>
     <center><img src= "http://pluspng.com/img-png/social-media-vector-png-social-network-600.png" width="280" height="250" class="centrar"></img><br/></center>
   </div>
