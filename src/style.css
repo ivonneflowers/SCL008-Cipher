@@ -1,1 +1,148 @@
-/* Acá va tu código */
+
+body{
+	font-family:Trebuchet MS, Helvetica, sans-serif;
+	margin: 50px 300px 100px 400px
+  text-align: inline;
+	color:	white;
+  background-image: url(https://shedoesart.files.wordpress.com/2014/12/eye-spies.jpg);
+  background-size: cover;
+	background-position: center;
+}
+
+.greenBackground{
+background-color: #ff5c33;
+text-align: center;
+padding: 70px;
+	margin:10px 10px 10px 10px;
+	border-radius: 30px;
+	width:340px;
+	height: 380px;
+	position:absolute;
+    top:5%;
+    left:30%;
+}
+
+.moreAboutCaesar{
+	background-color: #000000;
+	padding: 15px 15px;
+	text-align: center;
+	display: inline-block;
+	font-size: 12px;
+	border-radius: 8px;
+	position:absolute;
+    top:85%;
+    left:55%;
+		text-decoration: none;
+    color: white
+
+}
+
+
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+	font-size: 25px;
+}
+
+.tooltip2 .tooltiptext2 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #ff8f66;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+	font-size: 15px;
+}
+
+.tooltip2 .tooltiptext2::after {
+ content: "";
+ position: absolute;
+ top: 100%;
+ left: 50%;
+ margin-left: -5px;
+ border-width: 5px;
+ border-style: solid;
+ border-color: #555 transparent transparent transparent;
+}
+
+.tooltip2:hover .tooltiptext2 {
+ visibility: visible;
+ opacity: 1;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+	font-size: 20px;
+}
+
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #ff8f66;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+	font-size: 15px;
+}
+
+.tooltip .tooltiptext::after {
+ content: "";
+ position: absolute;
+ top: 100%;
+ left: 50%;
+ margin-left: -5px;
+ border-width: 5px;
+ border-style: solid;
+ border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+ visibility: visible;
+ opacity: 1;
+}
+
+.inputstyle {
+	font-family:Trebuchet MS, Helvetica, sans-serif ; font-size: 12pt; background-color: #e6eeff;
+	text-align: center;
+	padding: 10px;
+		margin:10px 10px 10px 10px;
+		border-radius: 12px;
+		width:300px;
+		height: 90px;
+}
+
+
+button{
+   background-color: #000000;
+   border-radius: 8px;
+   color: white;
+   padding: 15px 15px;
+   text-align: center;
+   font-size: 16px;
+}
+
+.centrar{
+	text-align:center;
+}
+
+.imagepusheen{
+	 border-radius: 8px;
+}
