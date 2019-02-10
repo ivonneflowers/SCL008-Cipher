@@ -12,12 +12,6 @@ function start(){
   document.getElementById("shareItDecode").style.display="none";
 }
 
-//Funcion para guardar en una variable el offset
-//const typeofnumber_offset= document.getElementById("quantity");
-//typeofnumber_offset.addEventListener(/*buscar manera en la que se digita el numero, range?*/ ()=>{
-//let yourOffsetIs= document.getElementById("averiguar que id se coloca aqui").value;
-//})
-
 //Boton que permite pasar a la pantalla para escribir texto
 const button_start = document.getElementById("begin");
 button_start.addEventListener('click',()=>{
@@ -40,15 +34,12 @@ button_again1.addEventListener('click', ()=>{
   document.getElementById('playAgainEncode').style.display="block";
 });
 
-  //funcion para cuando el usuario aprieta jugar de nuevo desde decode
+//funcion para cuando el usuario aprieta jugar de nuevo desde decode
 const button_again2 = document.getElementById("begin2");
 button_again2.addEventListener('click', ()=>{
   alert("¡ATENCION!, DEBES ESCRIBIR TU TEXTO SIN SIGNOS DE PUNTUACIÓN")
   document.getElementById('playAgainDecode').style.display="block";
 });
-
-
-//aca poner la funcion para guardar la informacion del offset 
 
 
 
@@ -57,10 +48,15 @@ button_cipherOne.addEventListener('click', () => {
 
   //Esto permite que el mensaje escrito se guarde en una variable
   const message = document.getElementById('givenText').value;
-  console.log(message);/* aqui se guarda la informacion escrita desde el textarea*/ 
+  message1= message.toUpperCase();//convierte cualquier texto en mayusculas
+  
+  console.log(message1);//aqui se guarda la informacion escrita desde el textarea 
+
   //Esto permite que el offset se guarde en una variable 
   const instertoffset= document.getElementById('quantity').value;
   console.log(instertoffset);//aqui se guarda la informacion escrita en el offset
+
+  //let encodeResult= cipher.encode(instertoffset, message1);
 
     document.getElementById('secondWindow').style.display="none";
   document.getElementById("thirdWindowcipher").style.display="block";
@@ -70,17 +66,22 @@ button_cipherOne.addEventListener('click', () => {
 
 const button_decipherOne = document.getElementById('decipher1');
 button_decipherOne.addEventListener('click', () =>{
-  //Esto permite que el mensaje escrito se guarde en una variable
+//Esto permite que el mensaje escrito se guarde en una variable
   const message = document.getElementById('givenText').value;
-  console.log(message);//aqui se guarda la informacion escrita desde el textarea
+  message1= message.toUpperCase();//convierte cualquier texto en mayusculas 
+  console.log(message1);//aqui se guarda la informacion escrita desde el textarea
+  document.getElementById('thisText').innerHTML = message1
+
 //Esto permite que el offset se guarde en una variable 
   const instertoffset= document.getElementById('quantity').value;
   console.log(instertoffset);//aqui se guarda la informacion escrita en el offset 
 
+  //let decodeResult= cipher.decode(instertoffset, message1)
+
   document.getElementById("thirdWindowcipher").style.display="none";
   document.getElementById('thirdWindowdecipher').style.display="block";
 
-  //Aca se hace el enlace con cipher.js
+//Aca se hace el enlace con cipher.js
 });
 
 
@@ -101,7 +102,7 @@ button_thanku2.addEventListener('click',()=>{
 
 
 
-/*  funciones que permiten pasar a la pantalla de compartir desde el boton codificar y decodificar*/
+//funciones que permiten pasar a la pantalla de compartir desde el boton codificar y decodificar
 const button_shareit1 = document.getElementById('share1');
 button_shareit1.addEventListener('click', () =>{
   document.getElementById("shareItEncode").style.display="block";

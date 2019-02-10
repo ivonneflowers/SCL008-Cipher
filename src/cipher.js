@@ -1,18 +1,18 @@
 window.cipher = {
-  encode: (offset, text) => {
+  encode: (insertOffset, message1) => {
     /* Acá va tu código */
     let result ="";
-      for ( let i = 0; i< text.length; i++){
+      for ( let i = 0; i< message1.length; i++){
           let textToAscii= 0;
-          let texToAscii1= 0;
+          let textToAscii1= 0;
           let space = "";
-          textToAscii = text.charCodeAt(i);
+          textToAscii = message1.charCodeAt(i);
           if(textToAscii===32){
             space += 32;
             result+= String.fromCharCode(textToAscii);
           }
             else if(textToAscii >= 65 && textToAscii <=90 ){
-                  textToAscii1= (textToAscii - 65 + offset) %26 + 65;
+                  textToAscii1= (textToAscii - 65 + insertOffset) %26 + 65;
                   result += String.fromCharCode(textToAscii1);
              }else{
                 alert("PORFAVOR INGRESA TU TEXTO SIN SIGNOS DE PUNTUACION")
@@ -26,27 +26,27 @@ window.cipher = {
 
 
  window.decipher={
-   decode: (offsetd,textd)=>{
-     let resultDecipher="";
-     for(let d = 0; d < textd.length; d++){
-       let textToAsciid= 0;
-       let textToAscii2= 0;
-       let space2= "";
-       textToAsciid= textd.charCodeAt(d);
-       if (textToAsciid ===32){
-         space2 += 32;
-         resultDecipher += String.fromCharCode(textToAsciid);
+   decode: (insertOffset,message1)=>{
+     let result="";
+     for(let i = 0; i < message1.length; i++){
+       let textToAscii= 0;
+       let textToAscii1= 0;
+       let space= "";
+       textToAscii= message1.charCodeAt(d);
+       if (textToAscii ===32){
+         space += 32;
+         result+= String.fromCharCode(textToAscii);
        }
-       else if ( textToAsciid >= 65 && textToAsciid <= 90){
-         textToAscii2=(textToAsciid - 90 - offsetd)% 26 - 90;
-         resultDecipher += String.fromCharCode(textToAscii2);
+       else if ( textToAscii >= 65 && textToAscii <= 90){
+         textToAscii2=(textToAscii - 90 - insertOffset)% 26 + 90;
+         result += String.fromCharCode(textToAscii1);
        }
        else{ 
          alert("PORFAVOR DEBES ESCRIBIR TU TEXTO SIN SIGNOS DE PUNTUACIÓN")
-         return restultDecipher;
+         return restult;
        }
      }
-     return resultDecipher;
+     return result;
    }
  }       
 
