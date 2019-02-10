@@ -23,7 +23,7 @@ padding: 70px;
 }
 
 .moreAboutCaesar{
-	background-color: #000000;
+	background-color:#009966;
 	padding: 15px 15px;
 	text-align: center;
 	display: inline-block;
@@ -47,7 +47,7 @@ padding: 70px;
 .tooltip2 .tooltiptext2 {
   visibility: hidden;
   width: 120px;
-  background-color: #ff8f66;
+  background-color: #ffcc00;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -70,7 +70,7 @@ padding: 70px;
  margin-left: -5px;
  border-width: 5px;
  border-style: solid;
- border-color: #555 transparent transparent transparent;
+ border-color:#ffcc00 transparent transparent transparent;
 }
 
 .tooltip2:hover .tooltiptext2 {
@@ -88,7 +88,7 @@ padding: 70px;
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: #ff8f66;
+  background-color: #ffcc00;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -111,7 +111,7 @@ padding: 70px;
  margin-left: -5px;
  border-width: 5px;
  border-style: solid;
- border-color: #555 transparent transparent transparent;
+ border-color: #ffcc00 transparent transparent transparent;
 }
 
 .tooltip:hover .tooltiptext {
@@ -131,7 +131,7 @@ padding: 70px;
 
 
 button{
-   background-color: #000000;
+   background-color: #009966;
    border-radius: 8px;
    color: white;
    padding: 15px 15px;
@@ -146,3 +146,4 @@ button{
 .imagepusheen{
 	 border-radius: 8px;
 }
+
