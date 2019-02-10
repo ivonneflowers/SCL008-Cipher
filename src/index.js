@@ -49,7 +49,7 @@ button_cipherOne.addEventListener('click', () => {
   //Esto permite que el mensaje escrito se guarde en una variable
   const message = document.getElementById('givenText').value;
   message1= message.toUpperCase();//convierte cualquier texto en mayusculas
-  
+  document.getElementById('thisText').innerHTML= message1;
   console.log(message1);//aqui se guarda la informacion escrita desde el textarea 
 
   //Esto permite que el offset se guarde en una variable 
@@ -69,8 +69,9 @@ button_decipherOne.addEventListener('click', () =>{
 //Esto permite que el mensaje escrito se guarde en una variable
   const message = document.getElementById('givenText').value;
   message1= message.toUpperCase();//convierte cualquier texto en mayusculas 
+  document.getElementById('thisText2').innerHTML= message1;
   console.log(message1);//aqui se guarda la informacion escrita desde el textarea
-  document.getElementById('thisText').innerHTML = message1
+  
 
 //Esto permite que el offset se guarde en una variable 
   const instertoffset= document.getElementById('quantity').value;
