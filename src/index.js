@@ -26,7 +26,7 @@ button_start.addEventListener('click',()=>{
   document.getElementById('secondWindow').style.display="block";
 
   let yourTextHere= document.getElementById("givenText").value;
-  //let text = yourTextHere.toUpperCase();
+  let text = yourTextHere.toUpperCase();
 });
 
 
@@ -56,8 +56,11 @@ const button_cipherOne = document.getElementById('cipher1');
 button_cipherOne.addEventListener('click', () => {
 
   //Esto permite que el mensaje escrito se guarde en una variable
-  const mensaje = document.getElementById('givenText').value;
-  console.log(mensaje);/* aqui se guarda la informacion escrita desde el textarea*/ 
+  const message = document.getElementById('givenText').value;
+  console.log(message);/* aqui se guarda la informacion escrita desde el textarea*/ 
+  //Esto permite que el offset se guarde en una variable 
+  const instertoffset= document.getElementById('quantity').value;
+  console.log(instertoffset);//aqui se guarda la informacion escrita en el offset
 
     document.getElementById('secondWindow').style.display="none";
   document.getElementById("thirdWindowcipher").style.display="block";
@@ -68,8 +71,11 @@ button_cipherOne.addEventListener('click', () => {
 const button_decipherOne = document.getElementById('decipher1');
 button_decipherOne.addEventListener('click', () =>{
   //Esto permite que el mensaje escrito se guarde en una variable
-  const mensaje = document.getElementById('givenText').value;
-  console.log(mensaje);
+  const message = document.getElementById('givenText').value;
+  console.log(message);//aqui se guarda la informacion escrita desde el textarea
+//Esto permite que el offset se guarde en una variable 
+  const instertoffset= document.getElementById('quantity').value;
+  console.log(instertoffset);//aqui se guarda la informacion escrita en el offset 
 
   document.getElementById("thirdWindowcipher").style.display="none";
   document.getElementById('thirdWindowdecipher').style.display="block";

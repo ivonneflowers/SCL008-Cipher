@@ -119,6 +119,17 @@ padding: 70px;
  opacity: 1;
 }
 
+.inputstyle2 {
+	font-family:Trebuchet MS, Helvetica, sans-serif ; font-size: 12pt; background-color: #e6eeff;
+	text-align: center;
+	padding: 10px;
+		margin:10px 10px 10px 10px;
+		border-radius: 12px;
+		width: 20px;
+		height: 20px;
+}
+
+
 .inputstyle {
 	font-family:Trebuchet MS, Helvetica, sans-serif ; font-size: 12pt; background-color: #e6eeff;
 	text-align: center;
@@ -128,6 +139,7 @@ padding: 70px;
 		width:300px;
 		height: 90px;
 }
+
 
 
 button{
