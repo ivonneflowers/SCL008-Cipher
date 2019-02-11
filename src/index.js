@@ -19,8 +19,8 @@ button_start.addEventListener('click',()=>{
   document.getElementById('firstWindow').style.display="none";
   document.getElementById('secondWindow').style.display="block";
 
-  let yourTextHere= document.getElementById("givenText").value;
-  let text = yourTextHere.toUpperCase();
+  
+  
 });
 
 
@@ -48,12 +48,12 @@ button_cipherOne.addEventListener('click', () => {
 
    //Esto permite que el offset se guarde en una variable 
    const instertoffset= document.getElementById('quantity').value;
-   console.log(instertoffset);//aqui se guarda la informacion escrita en el offset
+   //aqui se guarda la informacion escrita en el offset
 
   //Esto permite que el mensaje escrito se guarde en una variable
   const message = document.getElementById('givenText').value;
-  message1= message.toUpperCase();//convierte cualquier texto en mayusculas
-  console.log(message1);//aqui se guarda la informacion escrita desde el textarea 
+   let message1= message.toUpperCase();//convierte cualquier texto en mayusculas
+  //aqui se guarda la informacion escrita desde el textarea 
 
    // me conecta con cipher.js
 
@@ -69,18 +69,18 @@ const button_decipherOne = document.getElementById('decipher1');
 button_decipherOne.addEventListener('click', () =>{
 //Esto permite que el offset se guarde en una variable 
 const offsetDecode= document.getElementById('quantity').value;
-console.log(offsetDecode);//aqui se guarda la informacion escrita en el offset 
+//aqui se guarda la informacion escrita en el offset 
 
 
 //Esto permite que el mensaje escrito se guarde en una variable
   const messaged = document.getElementById('givenText').value;
 
-  message2= messaged.toUpperCase();//convierte cualquier texto en mayusculas 
-  console.log(message2);//aqui se guarda la informacion escrita desde el textarea
+  let message2= messaged.toUpperCase();//convierte cualquier texto en mayusculas 
+  //aqui se guarda la informacion escrita desde el textarea
   
   //me conecta con cipher.js
 
-document.getElementById('thisText2').innerHTML= window.decipher.decode(offsetDecode, message2);//me imprime el texto en html 
+document.getElementById('thisText2').innerHTML= window.cipher.decode(offsetDecode, message2);//me imprime el texto en html 
   
   document.getElementById("thirdWindowcipher").style.display="none";
   document.getElementById('thirdWindowdecipher').style.display="block";

@@ -60,7 +60,7 @@
       </div>
       <div>
         <!-- Rango donde se escoge el offset -->
-        <textarea name="offset" id="quantity" size="2px 20px" class="inputstyle2" ></textarea>
+        <textarea name="offset" id="quantity1" size="2px 20px" class="inputstyle2" ></textarea>
         <hr>
       </div>
        <div class="tooltip">Escribe tu texto aquí<span class="tooltiptext">¡Recuerda que debes escribir sin signos de puntuación!</span>
@@ -70,20 +70,20 @@
       <button type="button" id="decipher2" class= "centrar">Descubrir</button>
     </div>
 
-  </div>
+  
 
   <!-- Pantalla que aparece al apretar el boton salir desde encode, tiene interacción con la funcion thanku1 -->
-  <div id=thanksEncode class= "greenBackground" >
+  <div id="thanksEncode" class= "greenBackground" >
       <h1>MUCHAS GRACIAS POR JUGAR</h1>
-      <div id= imagepusheen>
-      <img src="https://media1.tenor.com/images/0e340a2da0dbdca8e4810f211527d58e/tenor.gif?itemid=5947160" width="250" height="250" class="centrar"></img><br/>
+      <div id= "imagepusheen">
+      <img src="https://media1.tenor.com/images/0e340a2da0dbdca8e4810f211527d58e/tenor.gif?itemid=5947160" width="250" height="250" class="centrar"><br/>
     </div>
       </div>
 
       <!-- Pantalla que aparece al apretar el boton Compartir desde encode, tiene interacción con la funcion shareItEncode -->
-  <div id= shareItEncode class= "greenBackground">
+  <div id= "shareItEncode" class= "greenBackground">
       <h1>Comparte con tus amigos en redes sociales</h1>
-    <img src= "http://pluspng.com/img-png/social-media-vector-png-social-network-600.png" width="280" height="250" class="centrar"></img><br/>
+    <img src= "http://pluspng.com/img-png/social-media-vector-png-social-network-600.png" width="280" height="250" class="centrar"><br/>
     </div>
 
 
@@ -95,7 +95,8 @@
 
   <!-- Pestaña que se abre cuando se escoje la opción descifrar o decodificar, aqui debe estar la interacción con la funcion decode -->
   <div id= "thirdWindowdecipher" class= "greenBackground" >
-    <h1>OMG!, este es tu  mensaje secreto</h1></br>
+    <h1>OMG!, este es tu  mensaje secreto</h1>
+  
    <h3><span id= "thisText2"></span></h3>
    <button type="button" id="thanks2" class= "centrar">Salir</button>
    <button type="button" id="begin2" class= "centrar">Volver a jugar</button>
@@ -110,7 +111,7 @@
       </div>
       <div>
         <!-- Rango donde se escoge el offset -->
-        <textarea name="offset" id="quantity" size="2px 20px" class="inputstyle2" ></textarea>
+        <textarea name="offset" id="quantity2" size="2px 20px" class="inputstyle2" ></textarea>
         <hr>
       </div>
        <div class="tooltip">Escribe tu texto aquí<span class="tooltiptext">¡Recuerda que debes escribir sin signos de puntuación!</span>
@@ -118,29 +119,28 @@
        <textarea name="yourText" id="givenTextDecode" size="70px 100px" class="inputstyle"></textarea><br/>
       <button type="button" id="cipher3" class= "centrar">Crear</button>
       <button type="button" id="decipher3" class= "centrar">Descubrir</button>
-    </div>
+    
 
   </div>
 
 
   <!-- Pantalla que aparece al apretar el boton salir desde decode, tiene interacción con la funcion thanku1 -->
-  <div id=thanksDecode class= "greenBackground" >
+  <div id="thanksDecode" class= "greenBackground" >
   <h1>MUCHAS GRACIAS POR JUGAR</h1>
-  <div id= imagepusheen>
-  <img src="https://media1.tenor.com/images/0e340a2da0dbdca8e4810f211527d58e/tenor.gif?itemid=5947160" width="250" height="250" class="centrar"></img><br/>
+  <div id= "imagepusheen2">
+  <img src="https://media1.tenor.com/images/0e340a2da0dbdca8e4810f211527d58e/tenor.gif?itemid=5947160" width="250" height="250" class="centrar"><br/>
 </div>
   </div>
 
 
  <!-- Pantalla que aparece al apretar el boton Compartir desde decode, tiene interacción con la funcion shareItDecode -->
-  <div id= shareItDecode class= "greenBackground">
+  <div id= "shareItDecode" class= "greenBackground">
     <h1>Comparte con tus amigos en redes sociales</h1>
-    <img src= "http://pluspng.com/img-png/social-media-vector-png-social-network-600.png" width="280" height="250" class="centrar"></img><br/>
+    <img src= "http://pluspng.com/img-png/social-media-vector-png-social-network-600.png" width="280" height="250" class="centrar"><br/>
   </div>
 
 <script src="index.js" charset="utf-8"></script>
 <script src="cipher.js" charset="utf-8"></script>
   </body>
 </html>
-  </body>
-</html>
+
