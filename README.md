@@ -6,7 +6,7 @@ Está de más explicar lo que significa el [cifrado César](https://en.wikipedia
 
 "¿TE GUSTARÍA SER UN ESPÍA?" o "SPY APP". Se encarga de eso, es una app que esta desarrollada para niños entre 8 y 14 años, que necesiten compartir secretos o información.
 
-## Proceso de ideación 
+## Proceso de ideación 💡💡💡
 
 Una vez que nuestra problematica se encuentra definida y sabemos mas o menos como queremos abordarla, tenemos a mano varios métodos que nos son bastante útiles al momento de estructurarse. En este caso se realizaron algunos diagramas de flujo y prototipos en papel que fueron evolucionando de a poco hasta obtener el resultado final.
 
@@ -34,7 +34,7 @@ Posterior a la evolución del diagráma de flujo se hizo un pequeño bosquejo o 
 
  A continuación se mostrarán unas imágenes comparativas entre el mock up realizado dentro de los talleres y las pantallas del prototipo mostrado en este proyecto. Donde se pueden ver la aplicación de colores, tipografías y diagramaciones mas concordantes con el usuario.
 
-### Primera pantalla 
+### 1️⃣ **Primera pantalla** 
 
 ![primera](https://github.com/ivonneflowers/SCL008-Cipher/blob/master/imagenesreadme/Sin%20título-1.jpg)
 
@@ -42,19 +42,19 @@ Esta primera pantalla, de presentación, esta compuesta por un texto de bienveni
 
 
 
-### Segunda pantalla 
+### 2️⃣ **Segunda pantalla** 
 ![pantalla2](https://github.com/ivonneflowers/SCL008-Cipher/blob/master/imagenesreadme/Sin%20título-2.jpg)
 
  Acá se muestra que al presionaar el botón "VAMOS", saldrá un recuadro informando que el texto no debe ser escrito con signos de puntuación, dentro de la aplicación es repetido varias veces para asegurar que el usuario comprenda la información. 
 
 
- ### Tercera pantalla  
+ ### 3️⃣ **Tercera pantalla** 
 
 ![tercera](https://github.com/ivonneflowers/SCL008-Cipher/blob/master/imagenesreadme/Sin%20título-3.jpg)
 
 Aquí entramos al corazón de nuestra aplicación, ocurren las instrucciones principales para digitar un **offset** o **desfase** (En este caso se quiso implementar a modo de juego un "nivel de seguridad", junto con un tooltip o ventana de ayuda donde se indica que deben digitar un número) y el **texto** correspondiente a cifrar (codificar) o descifrar (decodificar). En este caso se implementaron en los botones las palabras *"crear"* y *"descubrir"*, ya que quizas el lenguaje técnico no sea el mas apropiado o comprensible para el rango de edad del usuario. 
 
-### Cuarta pantalla 
+### 4️⃣ **Cuarta pantalla** 
 
 ![cuarta](https://github.com/ivonneflowers/SCL008-Cipher/blob/master/imagenesreadme/Sin%20título-4.jpg)
 
@@ -65,19 +65,19 @@ Aquí entramos al corazón de nuestra aplicación, ocurren las instrucciones pri
 ## En resumen... 
 Podemos decir que... 
 
-- Spy App es una aplicación de uso simple para niños entre 8 a 14 años. 
-- Esta enfocada al envío de mensajes codificados entre sujetos de la misma edad con fines recreativos. 
-- Solucionando así problemas propios de la edad como envío de secretos o conversaciones privadas en clase.
+- ✔ Spy App es una aplicación de uso simple para niños entre 8 a 14 años. 
+- ✔  Esta enfocada al envío de mensajes codificados entre sujetos de la misma edad con fines recreativos. 
+- ✔ Solucionando así problemas propios de la edad como envío de secretos o conversaciones privadas en clase.
 
-## ¿Cómo puedo mejorar mi proyecto? 
+## 👀 ¿Cómo puedo mejorar mi proyecto? 👀
 
 Junto a todas las iteraciones previas que se han realizado en el proyecto existen también varios puntos en los que no se pudo profundizar o netamente no pudierin abarcase, como son:
 
-[] Incorporación de Ñ, números y signos de puntuación al rango de carácteres a cifrar o descifrar.
+⬜️ Incorporación de Ñ, números y signos de puntuación al rango de carácteres a cifrar o descifrar.
 
-[] Profundización en el estudio de usuario, con entrevistas grabadas o encuestas aleatorias. 
+⬜️ Profundización en el estudio de usuario, con entrevistas grabadas o encuestas aleatorias. 
 
-[] Trabajo en la funcionalidad de opciones adicionales como el *"compartir"* o el *"volver a jugar"*.
+⬜️ Trabajo en la funcionalidad de opciones adicionales como el *"compartir"* o el *"volver a jugar"*.
 
 Se espera que en la próxima iteración del proyecto se puedan abarcar estos temas para así desarrollar un MVP mas completo y satisfactorio para los usuarios. 
 
