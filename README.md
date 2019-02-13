@@ -36,31 +36,31 @@ Posterior a la evolución del diagráma de flujo se hizo un pequeño bosquejo o 
 
 ### Primera pantalla 
 
-![primera pantalla] (SCL008-Cipher/Sintítulo-1.jpg)
+![primera](https://github.com/ivonneflowers/SCL008-Cipher/blob/master/imagenesreadme/Sin%20título-1.jpg)
 
 Esta primera pantalla, de presentación, esta compuesta por un texto de bienvenida (En este caso la pregunta), una breve explicación sobre el objetivo de la aplicación y dos botones de comenzar (¡VAMOS!) y de información extra donde opcionalmente el usuario es redireccionado a un video explicativo. 
 
 
 
 ### Segunda pantalla 
-![pantalla 1A] (SCL008-Cipher/imagenesreadme/Sintítulo-2.jpg)
+![pantalla2](https://github.com/ivonneflowers/SCL008-Cipher/blob/master/imagenesreadme/Sin%20título-2.jpg)
 
  Acá se muestra que al presionaar el botón "VAMOS", saldrá un recuadro informando que el texto no debe ser escrito con signos de puntuación, dentro de la aplicación es repetido varias veces para asegurar que el usuario comprenda la información. 
 
 
  ### Tercera pantalla  
 
-![segunda pantalla] (SCL008-Cipher/imagenesreadme/Sintítulo-3.jpg)
+![tercera](https://github.com/ivonneflowers/SCL008-Cipher/blob/master/imagenesreadme/Sin%20título-3.jpg)
 
 Aquí entramos al corazón de nuestra aplicación, ocurren las instrucciones principales para digitar un **offset** o **desfase** (En este caso se quiso implementar a modo de juego un "nivel de seguridad", junto con un tooltip o ventana de ayuda donde se indica que deben digitar un número) y el **texto** correspondiente a cifrar (codificar) o descifrar (decodificar). En este caso se implementaron en los botones las palabras *"crear"* y *"descubrir"*, ya que quizas el lenguaje técnico no sea el mas apropiado o comprensible para el rango de edad del usuario. 
 
 ### Cuarta pantalla 
 
-![tercera pantalla] (SCL008-Cipher/imagenesreadme/Sintítulo-4.jpg)
+![cuarta](https://github.com/ivonneflowers/SCL008-Cipher/blob/master/imagenesreadme/Sin%20título-4.jpg)
 
 *¡Et voilá!*, en esta pantalla ya podemos ver el resultado obtenido a digitar el texto y además, me entrega tres botones donde puedo escoger entre **"salir"**, digitar un nuevo texto a través de **"volver a jugar"** y **"compartir"** en redes sociales, ya que esta aplicación no solo permite generar textos cifrados o descifrados, sino que esta enfocada principalmente a la comunicación entre amigos a través de estos mensajes. 
 
-![pantalla opcional] (SCL008-Cipher/imagenesreadme/Sintítulo-5.jpg)
+![pantalla opcional](https://github.com/ivonneflowers/SCL008-Cipher/blob/master/imagenesreadme/Sin%20título-5.jpg)
 
 ## En resumen... 
 Podemos decir que... 
