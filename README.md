@@ -12,7 +12,7 @@ Una vez que nuestra problematica se encuentra definida y sabemos mas o menos com
 
 También para crear un trabajo más eficiente y ordenado se aplicaron metodologías de realización de tareas como la mostrada a continuación.
 
-![trello](SCL008-Cipher/trello.jpg)
+![trello](https://github.com/ivonneflowers/SCL008-Cipher/blob/master/imagenesreadme/trello.jpg)
 
 [haz click aquí para ir a la página](https://trello.com/b/xDhHExYK/caesarcipher)
 
@@ -36,7 +36,7 @@ Posterior a la evolución del diagráma de flujo se hizo un pequeño bosquejo o 
 
 ### Primera pantalla 
 
-![primera pantalla] (SCL008-Cipher/imagenesreadme/Sintítulo-1.jpg)
+![primera pantalla] (SCL008-Cipher/Sintítulo-1.jpg)
 
 Esta primera pantalla, de presentación, esta compuesta por un texto de bienvenida (En este caso la pregunta), una breve explicación sobre el objetivo de la aplicación y dos botones de comenzar (¡VAMOS!) y de información extra donde opcionalmente el usuario es redireccionado a un video explicativo. 
 
