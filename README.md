@@ -12,7 +12,7 @@ Una vez que nuestra problematica se encuentra definida y sabemos mas o menos com
 
 También para crear un trabajo más eficiente y ordenado se aplicaron metodologías de realización de tareas como la mostrada a continuación.
 
-![trello](SCL008-Cipher/imagenesreadme/trello.jpg)
+![trello](SCL008-Cipher/trello.jpg)
 
 [haz click aquí para ir a la página](https://trello.com/b/xDhHExYK/caesarcipher)
 
