@@ -6,7 +6,7 @@ Está de más explicar lo que significa el [cifrado César](https://en.wikipedia
 
 "¿TE GUSTARÍA SER UN ESPÍA?" o "SPY APP". Se encarga de eso, es una app que esta desarrollada para niños entre 8 y 14 años, que necesiten compartir secretos o información.
 
-## Proceso de ideación 💡💡💡
+## 💡 Proceso de ideación 💡
 
 Una vez que nuestra problematica se encuentra definida y sabemos mas o menos como queremos abordarla, tenemos a mano varios métodos que nos son bastante útiles al momento de estructurarse. En este caso se realizaron algunos diagramas de flujo y prototipos en papel que fueron evolucionando de a poco hasta obtener el resultado final.
 
