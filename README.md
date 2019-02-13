@@ -24,11 +24,11 @@ Teniendo como guía esta lista de tareas detallada se pasa a realizar los diagra
 - Llamativa esteticamente.
 - Aplicada en formato juego. 
 
-![diagrama de flujo](SCL008-Cipher/imagenesreadme/Scan.jpg)
+![diagrama de flujo](https://github.com/ivonneflowers/SCL008-Cipher/blob/master/imagenesreadme/Scan.jpg)
 
 Podemos ver aquí que en la parte superior de la imagen esta el primer diágrama de flujo, bastante desordenado y ambiguo, pero en la parte inferior se encuentra la segunda iteración donde esta más completo y las ideas ya se pueden distinguir mas claras 
 
-![diagrama de flujo2](SCL008-Cipher/imagenesreadme/Scan1.jpg)
+![diagrama de flujo2](https://github.com/ivonneflowers/SCL008-Cipher/blob/master/imagenesreadme/Scan1.jpg)
 
 Posterior a la evolución del diagráma de flujo se hizo un pequeño bosquejo o sketch de las pantallas que se querían mostrar en la aplicación, para dar paso así a una maqueta o mock up un poco mas elaborado y detallado.
 
