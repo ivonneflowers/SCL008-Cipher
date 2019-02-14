@@ -52,12 +52,12 @@ button_cipherOne.addEventListener('click', () => {
 
   //Esto permite que el mensaje escrito se guarde en una variable
   const message = document.getElementById('givenText').value;
-   let message1= message.toUpperCase();//convierte cualquier texto en mayusculas
+   
   //aqui se guarda la informacion escrita desde el textarea 
 
    // me conecta con cipher.js
 
- document.getElementById('thisText').innerHTML= window.cipher.encode(instertoffset, message1);//imprime resultado en html. 
+ document.getElementById('thisText').innerHTML= window.cipher.encode(instertoffset, message);//imprime resultado en html. 
 
   document.getElementById('secondWindow').style.display="none";
   document.getElementById("thirdWindowcipher").style.display="block";
@@ -73,14 +73,12 @@ const offsetDecode= document.getElementById('quantity').value;
 
 
 //Esto permite que el mensaje escrito se guarde en una variable
-  const messaged = document.getElementById('givenText').value;
-
-  let message2= messaged.toUpperCase();//convierte cualquier texto en mayusculas 
+  const messaged = document.getElementById('givenText').value; 
   //aqui se guarda la informacion escrita desde el textarea
   
   //me conecta con cipher.js
 
-document.getElementById('thisText2').innerHTML= window.cipher.decode(offsetDecode, message2);//me imprime el texto en html 
+document.getElementById('thisText2').innerHTML= window.cipher.decode(offsetDecode, messaged);//me imprime el texto en html 
   
   document.getElementById("thirdWindowcipher").style.display="none";
   document.getElementById('thirdWindowdecipher').style.display="block";
